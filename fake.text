@@ -1,0 +1,48 @@
+fake news generator-which is used for genearting fake+funny news using list of words
+this project consists of different fake headlines which can be generated
+
+2.how am i building this?
+-> every sentence has like 3-4 words which could be performin any actions,subjects(who or what) and objects
+combiing them will be helpful for detection using random module
+
+3.concepts used
+1|list           |which is used to store the line of words like sub,obj,actions
+2|random.choice()|for picking up random item from list
+3|print()        |for printing
+4|input()        |for generating headlines 
+5|while          |to repeat the process
+6|string concatenation|for combining the strings
+
+4.steps involved
+->importing random module
+->creating list
+->using random.choice() to generate random values
+->printing the headlines generated
+->asking the user if they want few more headlines
+
+5.modification features
+->genearting headlines of particular gener 
+->saving a text file
+
+6.pseudocode
+1.strat the program
+2.import random module
+3.create an object list such as['ball','bat'] etc
+4.create an action list such as['dancing','riding']etc
+5.create a subject list such as['modi','varsha']etc
+6.create a while loop and run till it is true:
+a.genearte a random list of values from the above created list
+b.combine them usin string formatting
+c.print the final fake headlines
+d.ask they user if they want more of this kind(y/n)
+e.if no,end the loop
+7.Print bye msg and save the headlines generated in a text file
+8.end of the prog
+
+
+for additional feature of choosing gener
+1.add dictionary of various genres
+2.allow the user to choose the genres from the list 
+3.if not present,set it to default(miscellaneous)
+4.map subjects,objects and actions of particular genres
+and continue with the step5
